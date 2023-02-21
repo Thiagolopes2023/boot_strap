@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap - cards</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        .inico  {
+            background-color: beige;
+        }
+    </style>
+<body>
+    
+    <header>
+        <div class="navbar navbar-expand-lg inico" id="inicio">
+            <div class="container">
+                <h1>Estética-Bem Esta</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu"> 
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#inicio">Inícios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cards">Cards</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="header-image-menu">
+            <div class="container-">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="2000" class="carousel-item active">
+                            <img class="d-block w-100" src="./imagens/slidecorpo.jpg">
+                        </div>
+                        <div  data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="./imagens/slidecorpo2.jpg" alt="">
+                        </div>
+                    </div>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+    <div class="container">
+        <div class="text-center my-5">
+        </div>
+    </div>
+        <div class="row" id="cards">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm text-bg-info">
+                    <img src="./imagens/Criolipólise.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Criolipólise</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                A criolipólise é um método não invasivo, realizado em clínicas  de estética por um profissional capacitado, que age na  redução da gordura corporal atra
+                                vés do vacuo.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary rounded-0 float-end">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm text-bg-info">
+                    <img src="./imagens/edermo.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Endermologia</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                O equipamento de endermologia realiza uma massagem profunda para melhorar o aspecto da celulite e gordura localizada, isso acontece através da sucção.
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-outline-primary rounded-0 float-end">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card mb-5 shadow-sm text-bg-info">
+                    <img src="./imagens/corrente russa2.jpg" class="img-fluid">
+                    <div class="card-body">
+                        <div class="card-title">
+                            <h2>Corrente Russa</h2>
+                        </div>
+                        <div class="card-text">
+                            <p>
+                                A Corrente Russa é uma técnica que usa corrente <br>elétrica para melhorar o  tônus muscular e circulação sanguínea.
+                                        O estímulo elétrico usado produz uma contração muscular no local. 
+                        </div>
+                        <a href="#" class="btn btn-outline-primary rounded-0 float-end">Leia Mais</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
